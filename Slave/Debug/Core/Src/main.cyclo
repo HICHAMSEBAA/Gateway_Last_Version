@@ -1,0 +1,10 @@
+../Core/Src/main.c:117:6:nrf24_config_mode	2
+../Core/Src/main.c:152:6:Payload_charge_simulate	6
+../Core/Src/main.c:187:6:Send_Data	4
+../Core/Src/main.c:219:9:AnalyseThePayload	6
+../Core/Src/main.c:250:6:Receive_Data	2
+../Core/Src/main.c:281:6:setup	1
+../Core/Src/main.c:295:6:loop	2
+../Core/Src/main.c:318:5:main	2
+../Core/Src/main.c:378:6:SystemClock_Config	4
+../Core/Src/main.c:438:6:Error_Handler	1

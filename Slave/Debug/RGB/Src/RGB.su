@@ -1,0 +1,10 @@
+../RGB/Src/RGB.c:10:6:write8	32	static
+../RGB/Src/RGB.c:19:9:read8	32	static
+../RGB/Src/RGB.c:29:10:read16	32	static
+../RGB/Src/RGB.c:42:6:enable	8	static
+../RGB/Src/RGB.c:50:6:disable	16	static
+../RGB/Src/RGB.c:58:6:setIntegrationTime	16	static
+../RGB/Src/RGB.c:64:6:setGain	16	static
+../RGB/Src/RGB.c:70:6:tcs3272_init	16	static
+../RGB/Src/RGB.c:87:6:getRawData	24	static
+../RGB/Src/RGB.c:100:10:getRGB	32	static

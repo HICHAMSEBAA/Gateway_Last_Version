@@ -1,0 +1,5 @@
+../DH22/Src/dht22.c:7:6:microsecond_delay	16	static
+../DH22/Src/dht22.c:14:9:dht22_init	32	static
+../DH22/Src/dht22.c:54:9:dht22_read_data	16	static
+../DH22/Src/dht22.c:80:9:dht22_readings	16	static
+../DH22/Src/dht22.c:100:6:dht22_display	72	static

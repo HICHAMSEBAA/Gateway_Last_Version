@@ -1,0 +1,10 @@
+../Core/Src/main.c:117:6:nrf24_config_mode	16	static
+../Core/Src/main.c:152:6:Payload_charge_simulate	24	static
+../Core/Src/main.c:187:6:Send_Data	16	static
+../Core/Src/main.c:219:9:AnalyseThePayload	16	static
+../Core/Src/main.c:250:6:Receive_Data	16	static
+../Core/Src/main.c:281:6:setup	8	static
+../Core/Src/main.c:295:6:loop	48	static
+../Core/Src/main.c:318:5:main	8	static
+../Core/Src/main.c:378:6:SystemClock_Config	88	static
+../Core/Src/main.c:438:6:Error_Handler	4	static,ignoring_inline_asm

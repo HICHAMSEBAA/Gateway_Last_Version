@@ -1,0 +1,10 @@
+../RGB/Src/RGB.c:10:6:write8	1
+../RGB/Src/RGB.c:19:9:read8	1
+../RGB/Src/RGB.c:29:10:read16	1
+../RGB/Src/RGB.c:42:6:enable	1
+../RGB/Src/RGB.c:50:6:disable	1
+../RGB/Src/RGB.c:58:6:setIntegrationTime	2
+../RGB/Src/RGB.c:64:6:setGain	2
+../RGB/Src/RGB.c:70:6:tcs3272_init	3
+../RGB/Src/RGB.c:87:6:getRawData	2
+../RGB/Src/RGB.c:100:10:getRGB	2

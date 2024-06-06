@@ -1,0 +1,5 @@
+../Core/Src/rtc.c:33:6:MX_RTC_Init	4
+../Core/Src/rtc.c:91:6:HAL_RTC_MspInit	3
+../Core/Src/rtc.c:118:6:HAL_RTC_MspDeInit	2
+../Core/Src/rtc.c:136:6:set_time	3
+../Core/Src/rtc.c:162:6:get_time	1
