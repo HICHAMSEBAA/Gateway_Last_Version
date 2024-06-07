@@ -1,0 +1,1009 @@
+[
+    {
+        "id": "ac732dd9fc608202",
+        "type": "tab",
+        "label": "Gateway",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b5d647585f5e6d3c",
+        "type": "ui_chart",
+        "z": "ac732dd9fc608202",
+        "name": "",
+        "group": "d6fe8e6da395f5d2",
+        "order": 1,
+        "width": 14,
+        "height": 6,
+        "label": "Successful Rate Of Connection From Node 1",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#00ff00",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 790,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0cd9405c2692165c",
+        "type": "ui_chart",
+        "z": "ac732dd9fc608202",
+        "name": "",
+        "group": "d6fe8e6da395f5d2",
+        "order": 2,
+        "width": 14,
+        "height": 6,
+        "label": "Successful Rate Of Connection From Node 2",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ff0000",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 790,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f2af7c0bb0eba765",
+        "type": "ui_chart",
+        "z": "ac732dd9fc608202",
+        "name": "",
+        "group": "6365297db5400d64",
+        "order": 1,
+        "width": 14,
+        "height": 12,
+        "label": "Total Successful Rate ",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 720,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d81be6afc8b31d42",
+        "type": "ui_text",
+        "z": "ac732dd9fc608202",
+        "group": "98a53ca1e5d765fc",
+        "order": 9,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Radio Channel",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 700,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "b4bb408480d82582",
+        "type": "ui_text",
+        "z": "ac732dd9fc608202",
+        "group": "98a53ca1e5d765fc",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Data Rate",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 680,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "0dadf59769e604c0",
+        "type": "ui_text",
+        "z": "ac732dd9fc608202",
+        "group": "98a53ca1e5d765fc",
+        "order": 8,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Transmission Power",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 720,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "ac98d7d8c0a791ac",
+        "type": "ui_text",
+        "z": "ac732dd9fc608202",
+        "group": "98a53ca1e5d765fc",
+        "order": 10,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Delay",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 670,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "4cbf6758f5585b77",
+        "type": "ui_text",
+        "z": "ac732dd9fc608202",
+        "group": "98a53ca1e5d765fc",
+        "order": 6,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Node Number",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 700,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "873d42114870c477",
+        "type": "ui_text",
+        "z": "ac732dd9fc608202",
+        "group": "98a53ca1e5d765fc",
+        "order": 1,
+        "width": 5,
+        "height": 2,
+        "name": "",
+        "label": "GateWay",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 680,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "b235742c1594ae49",
+        "type": "ui_text",
+        "z": "ac732dd9fc608202",
+        "group": "98a53ca1e5d765fc",
+        "order": 11,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "CRC",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 670,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "f21f6a799af144f8",
+        "type": "function",
+        "z": "ac732dd9fc608202",
+        "name": "Sucssesful rate ",
+        "func": "let data = msg.payload.split(\"|\");\nif (data[0] == 2){\n    let P = (data[1]/data[2]) * 100\n    msg.payload = P\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 140,
+        "wires": [
+            [
+                "f2af7c0bb0eba765",
+                "b5d647585f5e6d3c",
+                "0cd9405c2692165c"
+            ]
+        ]
+    },
+    {
+        "id": "d51baca10bc039ad",
+        "type": "function",
+        "z": "ac732dd9fc608202",
+        "name": "function 3",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fd783e0b1761d983",
+        "type": "function",
+        "z": "ac732dd9fc608202",
+        "name": "function 4",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c8a7edd3955aa42b",
+        "type": "debug",
+        "z": "ac732dd9fc608202",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "1ee462909cb9991d",
+        "type": "ui_text",
+        "z": "ac732dd9fc608202",
+        "group": "98a53ca1e5d765fc",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Core",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 670,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "4518a471a9924e8b",
+        "type": "ui_text",
+        "z": "ac732dd9fc608202",
+        "group": "98a53ca1e5d765fc",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Clock frequency",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 700,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "e5246f2ad908b961",
+        "type": "ui_text",
+        "z": "ac732dd9fc608202",
+        "group": "98a53ca1e5d765fc",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "ROM",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 670,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "328bce39d901364c",
+        "type": "ui_text",
+        "z": "ac732dd9fc608202",
+        "group": "98a53ca1e5d765fc",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "SRAM",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 670,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "f9a0fcd72e43f3e8",
+        "type": "mqtt in",
+        "z": "ac732dd9fc608202",
+        "name": "Gatway",
+        "topic": "esp32/gatway",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d7c54e0f4890bb00",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 220,
+        "wires": [
+            [
+                "f21f6a799af144f8",
+                "c8a7edd3955aa42b",
+                "33620856ee844459",
+                "c9b0380c435720c5",
+                "35eed4c75757dc8b",
+                "39784e3c0c4efcaf",
+                "6b819b7586c08bf5",
+                "e99e732eb40d6bd6",
+                "ae21fac54e581e90",
+                "28fac46d84552a5d",
+                "1fddd78dbd9adda8",
+                "7fc0a698d06a4e0e",
+                "f0e88cf848cc38b3"
+            ]
+        ]
+    },
+    {
+        "id": "c7f94e4b075f26cd",
+        "type": "inject",
+        "z": "ac732dd9fc608202",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "250 Kbps",
+        "payloadType": "str",
+        "x": 140,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c7e8c5c40e4969d3",
+        "type": "inject",
+        "z": "ac732dd9fc608202",
+        "name": "Clock frequency",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "240 MHz",
+        "payloadType": "str",
+        "x": 120,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a4dec9f5b998e50d",
+        "type": "inject",
+        "z": "ac732dd9fc608202",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "ESP S3",
+        "payloadType": "str",
+        "x": 150,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "87a2a8658f4de738",
+        "type": "inject",
+        "z": "ac732dd9fc608202",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "52",
+        "payloadType": "num",
+        "x": 150,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "419fe04566bf0e3f",
+        "type": "inject",
+        "z": "ac732dd9fc608202",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0 db",
+        "payloadType": "str",
+        "x": 150,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8dad8a1c2dba779f",
+        "type": "inject",
+        "z": "ac732dd9fc608202",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1000 ",
+        "payloadType": "num",
+        "x": 150,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "43257b75dc4dbcf6",
+        "type": "inject",
+        "z": "ac732dd9fc608202",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2 Byte",
+        "payloadType": "str",
+        "x": 150,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bad53191303da2e4",
+        "type": "inject",
+        "z": "ac732dd9fc608202",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2",
+        "payloadType": "num",
+        "x": 150,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5cfe770d2c885438",
+        "type": "inject",
+        "z": "ac732dd9fc608202",
+        "name": "ROM",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "384 KB",
+        "payloadType": "str",
+        "x": 150,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "343f183dc428cd75",
+        "type": "inject",
+        "z": "ac732dd9fc608202",
+        "name": "CPU",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Xtensa® dual-core 32-bit LX7 ",
+        "payload": "ARM Cortex M4 32-bit",
+        "payloadType": "str",
+        "x": 150,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d738ba841f9533ba",
+        "type": "inject",
+        "z": "ac732dd9fc608202",
+        "name": "SRAM",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "512 KB",
+        "payloadType": "str",
+        "x": 150,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "35eed4c75757dc8b",
+        "type": "function",
+        "z": "ac732dd9fc608202",
+        "name": "function 5",
+        "func": "let data = msg.payload.split(\"|\");\nif (data[0] == 3){\n    msg.payload = data[3]\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 420,
+        "wires": [
+            [
+                "4518a471a9924e8b"
+            ]
+        ]
+    },
+    {
+        "id": "39784e3c0c4efcaf",
+        "type": "function",
+        "z": "ac732dd9fc608202",
+        "name": "function 6",
+        "func": "let data = msg.payload.split(\"|\");\nif (data[0] == 3){\n    msg.payload = data[4]\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 460,
+        "wires": [
+            [
+                "e5246f2ad908b961"
+            ]
+        ]
+    },
+    {
+        "id": "6b819b7586c08bf5",
+        "type": "function",
+        "z": "ac732dd9fc608202",
+        "name": "function 7",
+        "func": "let data = msg.payload.split(\"|\");\nif (data[0] == 3){\n    msg.payload = data[5]\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 500,
+        "wires": [
+            [
+                "328bce39d901364c"
+            ]
+        ]
+    },
+    {
+        "id": "e99e732eb40d6bd6",
+        "type": "function",
+        "z": "ac732dd9fc608202",
+        "name": "function 8",
+        "func": "let data = msg.payload.split(\"|\");\nif (data[0] == 3){\n    msg.payload = data[6]\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 540,
+        "wires": [
+            [
+                "d81be6afc8b31d42"
+            ]
+        ]
+    },
+    {
+        "id": "ae21fac54e581e90",
+        "type": "function",
+        "z": "ac732dd9fc608202",
+        "name": "function 9",
+        "func": "let data = msg.payload.split(\"|\");\nif (data[0] == 3){\n    msg.payload = data[7]\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 580,
+        "wires": [
+            [
+                "b4bb408480d82582"
+            ]
+        ]
+    },
+    {
+        "id": "28fac46d84552a5d",
+        "type": "function",
+        "z": "ac732dd9fc608202",
+        "name": "function 10",
+        "func": "let data = msg.payload.split(\"|\");\nif (data[0] == 3){\n    msg.payload = data[8]\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 620,
+        "wires": [
+            [
+                "0dadf59769e604c0"
+            ]
+        ]
+    },
+    {
+        "id": "1fddd78dbd9adda8",
+        "type": "function",
+        "z": "ac732dd9fc608202",
+        "name": "function 11",
+        "func": "let data = msg.payload.split(\"|\");\nif (data[0] == 3) {\n    msg.payload = data[9]\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 660,
+        "wires": [
+            [
+                "b235742c1594ae49"
+            ]
+        ]
+    },
+    {
+        "id": "7fc0a698d06a4e0e",
+        "type": "function",
+        "z": "ac732dd9fc608202",
+        "name": "function 12",
+        "func": "let data = msg.payload.split(\"|\");\nif (data[0] == 3){\n    msg.payload = data[10]\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 700,
+        "wires": [
+            [
+                "ac98d7d8c0a791ac"
+            ]
+        ]
+    },
+    {
+        "id": "f0e88cf848cc38b3",
+        "type": "function",
+        "z": "ac732dd9fc608202",
+        "name": "function 13",
+        "func": "let data = msg.payload.split(\"|\");\nif (data[0] == 3){\n    msg.payload = data[11]\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 740,
+        "wires": [
+            [
+                "4cbf6758f5585b77"
+            ]
+        ]
+    },
+    {
+        "id": "c9b0380c435720c5",
+        "type": "function",
+        "z": "ac732dd9fc608202",
+        "name": "function 14",
+        "func": "let data = msg.payload.split(\"|\");\nif (data[0] == 3){\n    msg.payload = data[2]\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 380,
+        "wires": [
+            [
+                "1ee462909cb9991d"
+            ]
+        ]
+    },
+    {
+        "id": "33620856ee844459",
+        "type": "function",
+        "z": "ac732dd9fc608202",
+        "name": "function 15",
+        "func": "let data = msg.payload.split(\"|\");\nif (data[0] == 3){\n    msg.payload = data[1]\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 340,
+        "wires": [
+            [
+                "873d42114870c477"
+            ]
+        ]
+    },
+    {
+        "id": "d6fe8e6da395f5d2",
+        "type": "ui_group",
+        "name": "Nodes Connectivity",
+        "tab": "6e678b5b6649d30b",
+        "order": 3,
+        "disp": true,
+        "width": "14",
+        "collapse": false
+    },
+    {
+        "id": "6365297db5400d64",
+        "type": "ui_group",
+        "name": "Globle Connectivity",
+        "tab": "6e678b5b6649d30b",
+        "order": 2,
+        "disp": true,
+        "width": "14",
+        "collapse": false
+    },
+    {
+        "id": "98a53ca1e5d765fc",
+        "type": "ui_group",
+        "name": "Getway Characteristic",
+        "tab": "6e678b5b6649d30b",
+        "order": 1,
+        "disp": true,
+        "width": 5,
+        "collapse": false
+    },
+    {
+        "id": "d7c54e0f4890bb00",
+        "type": "mqtt-broker",
+        "name": "Gateway",
+        "broker": "192.168.121.178",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "6e678b5b6649d30b",
+        "type": "ui_tab",
+        "name": "Geteway",
+        "icon": "fa-bar-chart",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
